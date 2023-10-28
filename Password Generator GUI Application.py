@@ -21,11 +21,11 @@ len_password.set(0)
 
 
 Label(window, text="Password Generator Application", font="calibri 20 bold").pack()
-Label(window, text="Enter password length").pack(pady=3)
-Entry(window, textvariable=len_password).pack(pady=3)
-Button(window, text="Click button to generate", command=generate_random_password).pack(pady=7)
-Label(window, text="Your Generated password").pack(pady=3)
-Entry(window, textvariable=final_password).pack(pady=3)
+Label(window, text="Enter password length").pack(pady=5)
+Entry(window, textvariable=len_password).pack(pady=5)
+Button(window, text="Click button to generate", command=generate_random_password).pack(pady=10)
+Label(window, text="Your Generated password").pack(pady=5)
+Entry(window, textvariable=final_password).pack(pady=5)
 
 
 window.mainloop()
